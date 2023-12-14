@@ -47,4 +47,4 @@ with TelegramClient('session', api_id, api_hash) as client:
             print(f"Message sent to {group}")
         except Exception as e:
             print(f"Failed to send message to {group}: {e}")
-    time.sleep(1)
+    time.sleep(1800)
