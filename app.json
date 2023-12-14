@@ -1,0 +1,47 @@
+{
+  "name": "〄 ╚» ⟦𓆩ᏒⲞⲞᗪ𓆪⟧«╝ SᑭᗩᗰᗷOT 〄",
+  "description": "A Powerful Telegram Spambot based on telethon.",
+  "Channel": "https://t.me/RoodClan",
+  "repository": "https://github.com/RoodOwner/RoodFighters/",
+  "logo": "https://te.legra.ph/file/84ba366dd4bd8fbd416de.jpg",
+  "keywords": [
+    "spambot",
+    "telegram",
+    "userbot"
+  ],
+    "env": {
+      "STRING01": {
+        "description": "String Session Of Leader Account Not Owner Account",
+        "value": "1AZWarzYBuxOrm0kTfROZ0dPTwRflVk5SB1xznQ6Ve8ftLLwDc3Ym2iesGu35ul62386dZIg7EhG1yPrtWl_guuIZkqn-AmeBkR8SK587Z0h6jbIDnBAx3oKxwijes9BKexSXC56z2zPtkmzM22P4cBIE5_VSRWnXWu6AIhh-60AWNh-1tYjwiX0EdcCT86nX5PslFztu1QiMv9Ktk_C6diDUwy3D7M9fjVWF_2TA98Wnn8lCpwgu3y7A6lSrIYgTb-7PLAIMaWgC4ik6V-KTsZeb1OVl3NpEI8NQmXSEJSW0Yb1lhapYwal9BUlNRjSMGXtiacUphCZ_ynBPYeSqEdR0GswtGnI=",
+        "required": false
+      },
+      "API_ID": {
+        "description": "Fill API ID ",
+        "value": "22157690",
+        "required": false
+      },
+      "API_HASH": {
+        "description": "Api Hash get it from telegram.org",
+        "value": "819a20b5347be3a190163fff29d59d81",
+        "required": false
+      },
+      "SUDO": {
+        "description": "Owner Id Then Sudo User Id",
+        "value": "2092103173",
+        "required": false
+      }
+  },
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "12"
+    }
+  }],
+  "buildpacks": [{
+    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+  },{
+    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+  },{
+    "url": "heroku/python"
+  }]
+}
